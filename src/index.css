@@ -1,0 +1,206 @@
+html {
+  min-width: 500px;
+width: 100%;
+height: 100%;
+position: fixed;
+background-image: url("background.jpg");
+}
+
+body {
+  min-width: 50%;
+}
+
+#screen {
+  background-image: url("nokia4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: auto;
+  height: 690px;
+  width: 222px; 
+}
+
+.game-area {
+  position: absolute;
+  margin: 250px 38px auto;
+  width: 146px;
+  height: 92px;
+  border: 1.3px solid black;
+}
+
+.snake-dot {
+  position: absolute;
+  width: .6vh;
+  height: .6vh;
+  background-color: #000;
+  border: .5px solid black;
+  z-index: 2;
+}
+
+.snake-food {
+  position: absolute;
+  width: .6vh;
+  height: .6vh;
+  background: black;
+  border: 1px solid black;
+  z-index: 1;
+}
+
+.color-back {
+  position: absolute;
+  margin: 270px 160px auto;
+  height: 322px;
+  width: 240px;
+  border-radius: 16px;
+  border: 5px solid black;
+  background-color: black;
+  opacity: .4;
+}
+
+.color-border {
+  position: absolute;
+  margin: 265px 155px auto;
+  height: 330px;
+  width: 250px;
+  border: 5px solid black;
+  border-radius: 30px;
+  text-align: center;
+  opacity: .6;
+  font-size: 28px;
+}
+
+#live-score {
+  position: absolute;
+  margin: -60px 166px auto;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 30px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#big-score {
+  position: absolute;
+  margin: -110px 300px auto;
+  font-family: 'Skranji', cursive;
+  font-size: 80px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.right-title {
+  position: absolute;
+  margin: -60px 400px auto;
+  font-family: 'Galindo', cursive;
+  font-size: 40px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000; 
+}
+
+.title-name {
+  position: absolute;
+  margin: -90px 160px auto;
+  font-family: 'Galindo', cursive;
+  font-size: 40px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000; 
+}
+
+.top-heading {
+font-size: 84px;
+}
+
+.middle-heading {
+margin-top: -130px;
+font-size: 110px;
+}
+
+.bottom-heading {
+margin-top: -156px;
+font-size: 62px;
+}
+
+.snake-logo {
+  position: absolute;
+  margin: 20px 930px auto;
+  background-image: url("snakey.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 633px;
+  width: 135px;
+}
+
+.color-picker-left {
+  position: absolute;
+  margin: 286px 190px auto;
+}
+
+.color-picker {
+  position: absolute;
+  margin: 286px 260px auto;
+}
+
+.color-picker-right {
+  position: absolute;
+  margin: 286px 330px auto;
+}
+
+.yellow {
+  background-image: url("yellow.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: relative; */
+  margin: auto;
+  height: 138px;
+  width: 44px; 
+}
+
+.purple {
+  background-image: url("purple.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: relative; */
+  margin: auto;
+  height: 138px;
+  width: 44px; 
+}
+
+.green {
+  background-image: url("green.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: relative; */
+  margin: auto;
+  height: 138px;
+  width: 44px; 
+}
+
+.blue {
+  background-image: url("blue.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: relative; */
+  margin: auto;
+  height: 138px;
+  width: 44px; 
+}
+
+.orange {
+  background-image: url("orange.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: relative; */
+  margin: auto;
+  height: 138px;
+  width: 44px; 
+}
+
+.pink {
+  background-image: url("pink.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: relative; */
+  margin: auto;
+  height: 138px;
+  width: 44px; 
+}
+
